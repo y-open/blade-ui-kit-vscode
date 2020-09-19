@@ -3,6 +3,11 @@
     "displayName": "Blade UI Kit IntelliSense",
     "description": "Simple IntelliSense & Snippets for [Blade UI Kit](blade-ui-kit.com)",
     "version": "1.2.0",
+    "publisher": "aurorabiz",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Y-open/blade-ui-kit-vscode.git"
+    },
     "engines": {
         "vscode": "^1.49.0"
     },
