@@ -1,0 +1,289 @@
+{
+    "Alert": {
+        "prefix": "x-alert",
+        "body": [
+            "<x-alert$0 />",
+        ],
+        "description": "Blade UI Kit - Alert"
+    },
+    "Alert with a $slot": {
+        "prefix": "x-alert-slot",
+        "body": [
+            "<x-alert class=\"$1\" >\n\t$0\n</x-alert>",
+        ],
+        "description": "Blade UI Kit - Alert with a $slot"
+    },
+    "Form Button": {
+        "prefix": "x-form-button",
+        "body": [
+            "<x-form-button :action=\"$1\" class=\"$2\">\n\t$0\n</x-form-button>",
+        ],
+        "description": "Blade UI Kit - Form Button"
+    },
+    "Form Logout": {
+        "prefix": "x-logout",
+        "body": [
+            "<x-logout$0 />",
+        ],
+        "description": "Blade UI Kit - Form Logout"
+    },
+    "Form Logout with action": {
+        "prefix": "x-logout-action",
+        "body": [
+            "<x-logout :action=\"$1\"$0 />",
+        ],
+        "description": "Blade UI Kit - Form Logout with action"
+    },
+    "DateTime Carbon": {
+        "prefix": "x-carbon",
+        "body": [
+            "<x-carbon :date=\"$1\"${2| , human, local|} $0 />",
+        ],
+        "description": "Blade UI Kit - DateTime Carbon"
+    },
+    "DateTime Carbon with format": {
+        "prefix": "x-carbon-format",
+        "body": [
+            "<x-carbon :date=\"$1\" format=\"$2d/m/Y H:i\"${3| , human, local|}$0 />",
+        ],
+        "description": "Blade UI Kit - DateTime Carbon"
+    },
+    "Countdown": {
+        "prefix": "x-countdown",
+        "body": [
+            "<x-countdown :expires=\"$0\"/>",
+        ],
+        "description": "Blade UI Kit - Countdown"
+    },
+    "Countdown with $slot": {
+        "prefix": "x-countdown-slot",
+        "body": [
+            "<x-countdown :expires=\"$1\">$0</x-countdown>",
+        ],
+        "description": "Blade UI Kit - Countdown with $slot"
+    },
+    "Easy-mde": {
+        "prefix": "x-easy-mde",
+        "body": [
+            "<x-easy-mde name=\"$1\"$0 />",
+        ],
+        "description": "Blade UI Kit - Easy-mde"
+    },
+    "Easy-mde with options": {
+        "prefix": "x-easy-options",
+        "body": [
+            "<x-easy-mde name=\"$1\" :options=\"[$1]\"$0 />",
+        ],
+        "description": "Blade UI Kit - Easy-mde with options"
+    },
+    "X-trix": {
+        "prefix": "x-trix",
+        "body": [
+            "<x-trix name=\"$1\"$0 />",
+        ],
+        "description": "Blade UI Kit - X-trix"
+    },
+    "Trix with styles": {
+        "prefix": "x-trix-styles",
+        "body": [
+            "<x-trix name=\"$1\" styles=\"$2\"$0 />",
+        ],
+        "description": "Blade UI Kit - Trix with styles"
+    },
+    "Error": {
+        "prefix": "x-error",
+        "body": [
+            "<x-error field=\"$1\"$0 />",
+        ],
+        "description": "Blade UI Kit - Error"
+    },
+    "x-error-ul": {
+        "prefix": "x-error-ul",
+        "body": [
+            "<x-error field=\"$1\"$0>\n\t<ul>\n\t\t@foreach ($${2:component}->messages($${3:error}s) as $${3:error})\n\t\t\t<li>{{ $${3:error} }}</li>\n\t\t@endforeach\n\t</ul>\n</x-error>",
+        ],
+        "description": "Blade UI Kit - Error with unordered list of messages"
+    },
+    "Form": {
+        "prefix": "x-form",
+        "body": [
+            "<x-form action=\"$1\">\n\t$0\n</x-form>",
+        ],
+        "description": "Blade UI Kit - Form"
+    },
+    "Form with method": {
+        "prefix": "x-form-method",
+        "body": [
+            "<x-form method=\"$1\" action=\"$2\">\n\t$0\n</x-form>",
+        ],
+        "description": "Blade UI Kit - Form with method"
+    },
+    "Label": {
+        "prefix": "x-label",
+        "body": [
+            "<x-label for=\"$1\"$0 />",
+        ],
+        "description": "Blade UI Kit - Label"
+    },
+    "Label with $fallback": {
+        "prefix": "x-label-slot",
+        "body": [
+            "<x-label for=\"$1\">\n$0\n</label>",
+        ],
+        "description": "Blade UI Kit - Label with $fallback"
+    },
+    "Checkbox": {
+        "prefix": "x-checkbox",
+        "body": [
+            "<x-checkbox name=\"$1\"$0 />",
+        ],
+        "description": "Blade UI Kit - Checkbox"
+    },
+    "Color picker": {
+        "prefix": "x-color-picker",
+        "body": [
+            "<x-color-picker name=\"$1\"$0 />",
+        ],
+        "description": "Blade UI Kit - Color picker"
+    },
+    "Color picker with options": {
+        "prefix": "x-color-pick-opt",
+        "body": [
+            "<x-color-picker name=\"$1\" :options=\"$2\"$0 />",
+        ],
+        "description": "Blade UI Kit - Color picker with options"
+    },
+    "Email": {
+        "prefix": "x-email",
+        "body": [
+            "<x-email name=\"$1\"$0 />",
+        ],
+        "description": "Blade UI Kit - Email"
+    },
+    "Input": {
+        "prefix": "x-input",
+        "body": [
+            "<x-input name=\"$1\"$0 />",
+        ],
+        "description": "Blade UI Kit - Input"
+    },
+    "Password": {
+        "prefix": "x-password",
+        "body": [
+            "<x-password name=\"$1\"$0 />",
+        ],
+        "description": "Blade UI Kit - Password"
+    },
+    "Pickaday": {
+        "prefix": "x-pickaday",
+        "body": [
+            "<x-pickaday name=\"$1\"$0 />",
+        ],
+        "description": "Blade UI Kit - Pickaday"
+    },
+    "Pickaday with options": {
+        "prefix": "x-pickaday-opt",
+        "body": [
+            "<x-pickaday name=\"$1\" :options=\"$2\"$0 />",
+        ],
+        "description": "Blade UI Kit - Pickaday with options"
+    },
+    "Textarea": {
+        "prefix": "x-textarea",
+        "body": [
+            "<x-textarea name=\"$1\"$0 />",
+        ],
+        "description": "Blade UI Kit - Textarea"
+    },
+    "Textarea with rows": {
+        "prefix": "x-textarea-rows",
+        "body": [
+            "<x-textarea name=\"$1\" rows=\"$2\"$3 >\n\t$0\n</textarea>",
+        ],
+        "description": "Blade UI Kit - Textarea with options"
+    },
+    "Html": {
+        "prefix": "x-html",
+        "body": [
+            "<x-html title=\"$1\"$2 >\n\t$0\n</x-html>",
+        ],
+        "description": "Blade UI Kit - Html"
+    },
+    "Html $head slot": {
+        "prefix": "x-html-head",
+        "body": [
+            "<x-slot name=\"head\">\n\t<link rel=\"icon\" href=\"favicon.ico\" />\n\t<link href=\"\"type=\"text/css\" rel=\"stylesheet\" >\n</x-slot>$0",
+        ],
+        "description": "Blade UI Kit - Html $head slot"
+    },
+    "Social meta": {
+        "prefix": "x-social",
+        "body": [
+            "<x-social-meta\n\ttitle=\"$1\"\n\tdescription=\"$2\"\n\timage=\"$3\"\n/>$0",
+        ],
+        "description": "Blade UI Kit - Social Meta"
+    },
+    "Mapbox": {
+        "prefix": "x-mapbox",
+        "body": [
+            "<x-mapbox :markers=\"$1\" :options=\"$2\"$0 />",
+        ],
+        "description": "Blade UI Kit - Mapbox"
+    },
+    "Markdown": {
+        "prefix": "x-markdown",
+        "body": [
+            "<x-markdown name=\"$1\"${2| , flavor=\"github\"|} :options=\"$3\">\n\t$0\n</x-markdown>",
+        ],
+        "description": "Blade UI Kit - Markdown"
+    },
+    "Table of contents": {
+        "prefix": "x-toc",
+        "body": [
+            "<x-toc>\n\t$0\n</x-toc>",
+        ],
+        "description": "Blade UI Kit - Table of contents"
+    },
+    "Dropdown": {
+        "prefix": "x-dropdown",
+        "body": [
+            "<x-dropdown class=\"$1\">\n\t<x-slot name=\"${2:trigger}\">\n\t\t<button>\n\t\t\t$3\n\t\t</button>\n\t</x-slot>\n\n\t<a href=\"#\">$0</a>\n\t<a href=\"#\"></a>\n</x-dropdown>",
+        ],
+        "description": "Blade UI Kit - Dropdown"
+    },
+    "Dropdown with escape": {
+        "prefix": "x-dropdown-escape",
+        "body": [
+            "<x-dropdown @keydown.escape.window=\"open = false\" class=\"$1\">\n\t<x-slot name=\"${2:trigger}\">\n\t\t<button>\n\t\t\t$3\n\t\t</button>\n\t</x-slot>\n\n\t<a href=\"#\">$0</a>\n\t<a href=\"#\"></a>\n</x-dropdown>",
+        ],
+        "description": "Blade UI Kit - Dropdown with escape"
+    },
+    "Avatar": {
+        "prefix": "x-avatar",
+        "body": [
+            "<x-avatar search=\"$1\"${2| , provider=\"\"|}$0 />",
+        ],
+        "description": "Blade UI Kit - Avatar"
+    },
+    "Cron": {
+        "prefix": "x-cron",
+        "body": [
+            "<x-cron schedule=\"$1\"${2| , human|}$0 />",
+        ],
+        "description": "Blade UI Kit - Cron"
+    },
+    "Unsplash": {
+        "prefix": "x-unsplash",
+        "body": [
+            "<x-unsplash proto=\"$1\" ttl=\"$2\"$0 />",
+        ],
+        "description": "Blade UI Kit - Unsplash"
+    },
+    "Unsplash with query": {
+        "prefix": "x-unsplash-query",
+        "body": [
+            "<x-unsplash query=\"$1\" username=\"$2\" ttl=\"$3\"${4| , featured|}$0 />",
+        ],
+        "description": "Blade UI Kit - Unsplash with query"
+    }
+}

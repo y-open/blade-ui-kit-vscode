@@ -1,0 +1,45 @@
+{
+    "name": "blade-ui-kit",
+    "displayName": "Blade UI Kit IntelliSense",
+    "description": "Simple IntelliSense & Snippets for [Blade UI Kit](blade-ui-kit.com)",
+    "version": "1.2.0",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "keywords": [
+        "laravel",
+        "blade",
+        "blade-ui-kit",
+        "snippets",
+        "vscode"
+    ],
+    "icon": "img/icon.png",
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "blade",
+                "aliases": [
+                    "Blade",
+                    "blade"
+                ],
+                "extensions": [
+                    ".blade.php"
+                ]
+            }
+        ],
+        "snippets": [
+            {
+                "language": "blade",
+                "path": "./snippets/blade-ui-kit.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/blade-ui-kit.code-snippets"
+            }
+        ]
+    }
+}
