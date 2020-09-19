@@ -2,7 +2,7 @@
     "name": "blade-ui-kit",
     "displayName": "Blade UI Kit IntelliSense",
     "description": "Simple IntelliSense & Snippets for [Blade UI Kit](blade-ui-kit.com)",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "publisher": "aurorabiz",
     "repository": {
         "type": "git",
