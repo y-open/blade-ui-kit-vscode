@@ -4,6 +4,8 @@ Simple IntelliSense & Snippets for [Blade UI Kit](https://blade-ui-kit.com).
 
 ## Snippets
 
+![Using - Snippet](img/blade-ui-kit.gif)
+
 ![Screenshot - Snippet](img/screenshot-snippet.png)
 
 ## Settings and Contributions
